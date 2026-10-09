@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Welcome from "./pages/Welcome";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Profile from "./pages/Profile";
 import CareerDashboard from "./pages/CareerDashboard";
 import Dashboard from "./pages/Dashboard";
 import Result from "./pages/Result";
@@ -19,6 +21,8 @@ function App() {
         {/* EXISTING ROUTES */}
         <Route path="/" element={<Welcome />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/CareerDashboard" element={<CareerDashboard />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/result" element={<Result />} />

@@ -71,16 +71,16 @@ This internship significantly strengthened my problem-solving skills, provided i
 <h2 style="color:#333;"> Projects Completed </h2>
 <div align="left" style="margin: 20px; font-size: 16px;">
 
-<p><strong><a href="#project1">Project 1:</a></strong>  Careerlens AI Placement Readiness Analyzer </p>
+<p><strong><a href="#project1">Project 1:</a></strong>  SkillSight AI Placement Readiness Analyzer </p>
 
 <p><strong><a href="#project2">Project 2:</a></strong>  Personal Web Portfolio & Professional Showcase </p>
 
 </div>
 
 <!-- Project 1 -->
-<h3 id="project1">Project 1: Careerlens AI Placement Readiness Analyzer </h3>
+<h3 id="project1">Project 1: SkillSight AI Placement Readiness Analyzer </h3>
 <p>
-  CareerLens AI Placement Readiness Analyzer is an intelligent platform that identifies students’ skill gaps and evaluates their readiness for placement opportunities. It provides personalized guidance and improvement strategies to help enhance technical competencies and overall employability.
+  SkillSight AI Placement Readiness Analyzer is an intelligent platform that identifies students’ skill gaps and evaluates their readiness for placement opportunities. It provides personalized guidance and improvement strategies to help enhance technical competencies and overall employability.
 </p>
 <p>
   <a href="https://github.com/neelimagedela/CareerLens/blob/ea92587764cd5cad4aabfa342f317f1f7cc97bb3/Neelima%20G30%20FSD.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
@@ -102,7 +102,7 @@ This internship significantly strengthened my problem-solving skills, provided i
 
 ## **References**
 
-1. CareerLens AI Placement Readiness Analyzer :
+1. SkillSight AI Placement Readiness Analyzer :
    Angular
    Django
    PostgreSQL

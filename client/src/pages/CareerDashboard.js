@@ -10,16 +10,21 @@ export default function CareerDashboard() {
 
       {/* TOP NAVBAR */}
       <div style={styles.navbar}>
-        <h2 style={styles.logo}>CareerLens</h2>
+        <h2 style={styles.logo}>SkillSight</h2>
 
         <div style={styles.navBtns}>
-          <button style={styles.dashboardBtn}>Dashboard</button>
+          <button style={styles.profileBtn} onClick={() => navigate("/profile")}>Profile</button>
+          <button style={styles.logoutBtn} onClick={() => {
+            localStorage.removeItem("token");
+            localStorage.removeItem("user");
+            navigate("/login");
+          }}>Logout</button>
         </div>
       </div>
 
       {/* HEADER */}
       <div style={styles.header}>
-        <h1>👋 Hi Developer, Welcome to CareerLens 🚀</h1>
+        <h1>👋 Hi Developer, Welcome to SkillSight 🚀</h1>
         <p>
           Track your career growth step by step with AI-powered insights ✨
         </p>
@@ -140,11 +145,23 @@ const styles = {
     display: "flex"
   },
 
-  dashboardBtn: {
+  profileBtn: {
     padding: "10px 24px",
     borderRadius: "30px",
     border: "none",
-    background: "#111827",
+    background: "#4f46e5",
+    color: "#ffffff",
+    fontWeight: "700",
+    fontSize: "16px",
+    cursor: "pointer",
+    marginRight: "10px"
+  },
+
+  logoutBtn: {
+    padding: "10px 24px",
+    borderRadius: "30px",
+    border: "none",
+    background: "#ef4444",
     color: "#ffffff",
     fontWeight: "700",
     fontSize: "16px",

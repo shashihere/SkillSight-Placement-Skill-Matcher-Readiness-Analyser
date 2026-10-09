@@ -17,11 +17,11 @@ export default function Welcome() {
     <div className="welcome-container">
 
       <p className="welcome-text">
-        Welcome to <span>CareerLens AI</span>
+        Welcome to <span>SkillSight AI</span>
       </p>
 
       <h1 className="main-title">
-        Career<span>Lens</span>
+        Skill<span>Sight</span>
       </h1>
 
       <p className="tagline shiny-text">
